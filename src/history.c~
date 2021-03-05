@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "history.h"
+
+
+List* init_history(){
+
+  List* head = (List*)malloc(sizeof(List));
+
+  head->root = NULL;
+
+  return head;
+
+}
+
+
+

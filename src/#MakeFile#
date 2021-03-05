@@ -1,0 +1,8 @@
+run: history.o tokenizer.o simpleUI.o
+	cc histroy.o tokenizer.o simpleUI.o -o run
+
+history.o: history.c
+	cc -c history.c
+tokenizer.o: tokenizer,c
+	cc -c tokenizer.c
+main
